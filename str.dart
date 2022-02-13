@@ -1,5 +1,6 @@
 void main() {
   String name = 'Bob Smith Emilio Martinez';
+  String name2 = ' Bob Smith Emilio Martinez ';
   String animalList = 'dog, cat, bird, fish';
   var number = 123456789;
 
@@ -29,4 +30,12 @@ void main() {
 
   //substring name with index 10 to 16
   print(name.substring(10, 16));
+
+  //check length name
+  print(name.length);
+
+  //remove space name2
+  print(name2.trim());
+  print(name2.trimLeft());
+  print(name2.trimRight());
 }
