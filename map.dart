@@ -29,4 +29,8 @@ void main(){
 
   //check map length
   print(player.length);
+
+  //remove key value
+  player.remove('number');
+  print(player);
 }
