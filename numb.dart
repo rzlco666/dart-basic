@@ -9,4 +9,7 @@ void main(){
   print(angka1.runtimeType);
   print(angka2);
   print(angka2.runtimeType);
+
+  print(angka1.toString());
+  print(angka1.toString().runtimeType);
 }
