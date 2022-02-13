@@ -19,4 +19,9 @@ void main(){
   print(angka2.ceil());
   //pembulatan double ke bawah
   print(angka2.floor());
+
+  //int to double
+  print(angka1.toDouble());
+  //double to int
+  print(angka2.toInt());
 }
