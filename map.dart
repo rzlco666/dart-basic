@@ -33,4 +33,8 @@ void main(){
   //remove key value
   player.remove('number');
   print(player);
+
+  //change value
+  player['name'] = 'Anthony Davis Jr.';
+  print(player);
 }
