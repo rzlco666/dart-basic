@@ -54,4 +54,7 @@ void main() {
   //check string is empty
   var kosong = '';
   print(kosong.isEmpty);
+
+  //check string is not empty
+  print(kosong.isNotEmpty);
 }
