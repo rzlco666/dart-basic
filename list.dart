@@ -8,4 +8,8 @@ void main(){
 
   //return list size
   print(football.length);
+
+  //add element to list
+  football.add('Modric');
+  print(football);
 }
