@@ -50,4 +50,8 @@ void main() {
 
   //get string end with
   print(name.endsWith('Emilio'));
+
+  //check string is empty
+  var kosong = '';
+  print(kosong.isEmpty);
 }
