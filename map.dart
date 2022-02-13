@@ -20,4 +20,7 @@ void main(){
 
   //value by value
   print(player.values);
+  
+  //check if has specific key
+  print(player.containsKey('name'));
 }
