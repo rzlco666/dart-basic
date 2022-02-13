@@ -25,4 +25,12 @@ void main(){
   //reverse list
   List<String> footballReverse = football.reversed.toList();
   print(footballReverse);
+
+  //remove element from list
+  football.remove('Modric');
+  print(football);
+
+  //clear list
+  football.clear();
+  print(football);
 }
