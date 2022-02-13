@@ -1,7 +1,7 @@
 void main(){
   num angka = 10;
   int angka1 = 10;
-  double angka2 = 10.0;
+  double angka2 = 10.5;
 
   print(angka);
   print(angka.runtimeType);
@@ -12,4 +12,11 @@ void main(){
 
   print(angka1.toString());
   print(angka1.toString().runtimeType);
+  
+  //pembulatan double
+  print(angka2.round());
+  //pembulatan double ke atas
+  print(angka2.ceil());
+  //pembulatan double ke bawah
+  print(angka2.floor());
 }
