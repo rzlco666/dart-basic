@@ -27,4 +27,6 @@ void main(){
 
   //print double 2 digit after comma
   print(angka2.toStringAsFixed(2));
+  //print double with asprecision
+  print(angka2.toStringAsPrecision(3));
 }
