@@ -4,4 +4,8 @@ void main(){
   //start from index 0 -> 0, 1, 2
 
   print(football[0]);
+  print(football.elementAt(1));
+
+  //return list size
+  print(football.length);
 }
