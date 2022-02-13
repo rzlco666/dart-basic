@@ -42,4 +42,6 @@ void main(){
   print(!x);
 
   //Relational Operators
+  print(a is int);
+  print(a is! int);
 }
