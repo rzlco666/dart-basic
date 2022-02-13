@@ -17,4 +17,12 @@ void main(){
   List<String> football2 = ['De Gea', 'Rashford', 'Maguire'];
   football.addAll(football2);
   print(football);
+
+  //sort list
+  football.sort();
+  print(football);
+
+  //reverse list
+  List<String> footballReverse = football.reversed.toList();
+  print(footballReverse);
 }
