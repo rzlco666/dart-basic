@@ -1,7 +1,7 @@
 void main(){
   num angka = 10;
   int angka1 = 10;
-  double angka2 = 10.5;
+  double angka2 = 10.456789;
 
   print(angka);
   print(angka.runtimeType);
@@ -24,4 +24,7 @@ void main(){
   print(angka1.toDouble());
   //double to int
   print(angka2.toInt());
+
+  //print double 2 digit after comma
+  print(angka2.toStringAsFixed(2));
 }
