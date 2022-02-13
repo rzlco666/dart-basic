@@ -31,6 +31,15 @@ void main(){
   print(a <= b);
 
   //Logical Operators
+  bool x = true;
+  bool y = false;
+
+  //value false if any of the operands is false
+  print(x && y);
+  //value true if one of operands are true
+  print(x || y);
+  //not operator
+  print(!x);
 
   //Relational Operators
 }
