@@ -23,4 +23,7 @@ void main(){
   
   //check if has specific key
   print(player.containsKey('name'));
+
+  //check if has specific value
+  print(player.containsValue('Anthony Davis'));
 }
