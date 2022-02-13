@@ -47,4 +47,7 @@ void main() {
 
   //get string start with
   print(name.startsWith('Bob'));
+
+  //get string end with
+  print(name.endsWith('Emilio'));
 }
