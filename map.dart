@@ -26,4 +26,7 @@ void main(){
 
   //check if has specific value
   print(player.containsValue('Anthony'));
+
+  //check map length
+  print(player.length);
 }
