@@ -44,4 +44,7 @@ void main() {
 
   //get string index 
   print(name.indexOf('o'));
+
+  //get string start with
+  print(name.startsWith('Bob'));
 }
