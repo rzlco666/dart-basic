@@ -38,4 +38,7 @@ void main() {
   print(name2.trim());
   print(name2.trimLeft());
   print(name2.trimRight());
+
+  //get ascii value
+  print(name.codeUnitAt(0));
 }
