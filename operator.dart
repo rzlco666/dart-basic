@@ -23,6 +23,12 @@ void main(){
   print(modulus);
 
   //Equality Operators
+  print(a == b);
+  print(a != b);
+  print(a > b);
+  print(a < b);
+  print(a >= b);
+  print(a <= b);
 
   //Logical Operators
 
