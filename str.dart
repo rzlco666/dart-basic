@@ -41,4 +41,7 @@ void main() {
 
   //get ascii value
   print(name.codeUnitAt(0));
+
+  //get string index 
+  print(name.indexOf('o'));
 }
