@@ -12,4 +12,9 @@ void main(){
   //add element to list
   football.add('Modric');
   print(football);
+
+  //add element with list to list
+  List<String> football2 = ['De Gea', 'Rashford', 'Maguire'];
+  football.addAll(football2);
+  print(football);
 }
