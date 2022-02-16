@@ -4,7 +4,8 @@ void main() {
   intro(name);
 
   int side = 10;
-  print(cubes(side));
+  int vol = cubes(side);
+  print(vol);
 }
 
 //create a intro function
