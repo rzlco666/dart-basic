@@ -1,10 +1,10 @@
 void main() {
   
   String name = 'Cristiano Ronaldo';
-  intro();
+  intro(name);
 }
 
 //create a intro function
-void intro() {
-  print('Welcome to the Brain Games!');
+void intro(String name) {
+  print('Hola como estas $name');
 }
